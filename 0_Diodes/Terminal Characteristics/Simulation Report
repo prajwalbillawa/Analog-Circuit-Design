@@ -4,5 +4,5 @@ The static characteristics of the diode plots the diode current against the volt
 The operation of the diode can be broken down into 3 regions:
   1) Forward Biased Region: When voltage across is greater than the knee voltage(~0.7V for Si diodes).
                       The device is said to be conducting and diode current Id is positive.
-                      where, Id = $ Is(exp(Vd/nVt) - 1) $
+                      where, Id = $ Is(exp(Vd/nVt) - 1) I_{s}(e^{V_{d}/nV_{T}}-1) $
   2) Reverse Biased Region:
