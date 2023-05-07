@@ -19,7 +19,7 @@ The operation of the diode can be broken down into 3 regions:
 
 Schematic:
 
-![image](https://user-images.githubusercontent.com/46377316/236682458-08ad3526-53dc-4676-b596-5ba98c37f732.png)
+![image](https://user-images.githubusercontent.com/46377316/236685894-c6628d8e-a1c3-4b5c-8569-c45d0d7a0f63.png)
 
 The diode parameters are listed below:
 Saturation Current Is = 1e-14 A
