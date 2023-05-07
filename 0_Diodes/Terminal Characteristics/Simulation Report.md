@@ -19,7 +19,7 @@ The operation of the diode can be broken down into 3 regions:
 
 Schematic:
 
-![image](https://user-images.githubusercontent.com/46377316/236685894-c6628d8e-a1c3-4b5c-8569-c45d0d7a0f63.png)
+![image](https://user-images.githubusercontent.com/46377316/236687354-8e1f771c-e7be-446d-bc6d-d9f2e597fa98.png)
 
 The diode parameters are listed below:
 Saturation Current Is = 1e-14 A
@@ -32,11 +32,11 @@ Simulation:
 DC Analysis is run, with a voltage sweep of Vd from -1.15 to 1V, in steps of 50mV.
 
 The plot below shows the result of the DC analysis.
-![image](https://user-images.githubusercontent.com/46377316/236683214-3f161870-3f7a-40fd-b49e-3868fb4b85c1.png)
+![image](https://user-images.githubusercontent.com/46377316/236686131-88131816-b6fe-45b7-adeb-1bea0e46e5c7.png)
 
 To verify the diode equation, we sample the plot at a point.
-The diode current when Vd is 0.9V, is 38.76A
+The diode current when Vd is 0.9V, is 29.71A
 
-Substituting 0.9V into the diode equation, with n = 1, $V_{T}$ = 25mV,
-we get Id = 43.11V
+Substituting 0.9V into the diode equation, with n = 1, $V_{T}$ = 20mV,
+we get Id = 29.93V
 
