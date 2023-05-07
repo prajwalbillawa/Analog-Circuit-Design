@@ -40,3 +40,20 @@ The diode current when Vd is 0.9V, is 29.71A
 Substituting 0.9V into the diode equation, with n = 1, $V_{T}$ = 20mV,
 we get Id = 29.93V
 
+
+The Diode current is also a function of temperature as the Reverse Saturation Current(Is) doubles for every 5 degC rise in temperature.
+The below plot shows the temperature dependence of the diode current.
+
+Schematic:
+
+![image](https://user-images.githubusercontent.com/46377316/236691508-bebbd89f-d724-4fad-86a1-2c5aa2b795f3.png)
+
+Waveform:
+
+
+![image](https://user-images.githubusercontent.com/46377316/236691671-6636e809-7b19-4f59-bdf3-f93c30b13fa5.png)
+
+
+Thus, at a given constant diode current, the voltage drop across the diode decreases by approximately 2mV for every 1 degC increase in temperature.
+
+  
