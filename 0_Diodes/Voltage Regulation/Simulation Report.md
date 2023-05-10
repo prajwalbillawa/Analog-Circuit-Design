@@ -27,9 +27,9 @@ Running a DC analysis with a voltage sweep of Vdd from 9V to 11V, we observe the
 
 ![image](https://github.com/prajwal-billawa/Analog-Circuit-Design/assets/46377316/b52747fd-6e86-4f6a-8cb9-ad0353ad9b45)
 
-From KVL, $ \Delta V_{o} = \Delta V_{i}\times \left ( \frac{r_{d}}{r_{d} + R} \right ) $
-where $ r_{d} $ is the diode small signal resistance.
-$ r_{d} = \frac{nV_{T}}{I_{d}} $ , or simply the slope of the Id vs Vd curve at the operating point.
+From KVL, $\Delta V_{o} = \Delta V_{i}\times \left ( \frac{r_{d}}{r_{d} + R} \right )$
+where $r_{d}$ is the diode small signal resistance.
+$r_{d} = \frac{nV_{T}}{I_{d}}$ , or simply the slope of the Id vs Vd curve at the operating point.
 
 Substituating the vlues, we get $ r_{d} $ = 6.3 ohm.
 Thus, for a voltage variation of 2V, we expect an output voltage variation of approximately 37mV.
@@ -41,7 +41,7 @@ The schematic below shows the modified circuit.
 
 The simulation results show that Vout has now dropped from 2.04 from the previous case, to 2.02V. Thus, even when a load is connected, the diode maintains the voltage across its terminals(as long as all diodes are forward biased).
 We can estimate this by assuming the current drawn by the load is 2.04mA (2.04/1k)
-Thus, $ \Delta V_{o} = $ -2.04 x 18.9 = 38mV.
+Thus, $\Delta V_{o} =$ -2.04 x 18.9 = 38mV.
 Thus Vout = 2.04 - 0.038 = 2.002V, which is as per the simulation result.
 ![image](https://github.com/prajwal-billawa/Analog-Circuit-Design/assets/46377316/e77e5013-1e31-43b1-8180-d27fc96b790d)
 
