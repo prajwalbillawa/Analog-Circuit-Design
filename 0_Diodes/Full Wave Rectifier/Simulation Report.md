@@ -26,3 +26,19 @@ The below simulation plot reaffirms the theory.
 
 
 ## Bridge Rectifier
+
+The Bridge rectifier is also a full wave rectifier.
+It used a simple transformer with a primary and secondary.
+The number of diodes used is 4.
+
+The circuit below depicts a Bridge rectifier.
+
+![image](https://github.com/prajwal-billawa/Analog-Circuit-Design/assets/46377316/5df074ae-ca15-4162-8359-e0da0ad4781a)
+
+When the input is in its positive cycle, D4 and D5 are forward biased, whereas D3 and D6 are reverse biased.
+The load sees a voltage of Vin - 0.65V - 0.65V.
+Thus, there is an dditional diode drop in a bridge recitfier when compared to center tap full wave rectifier.
+
+The below simulation depicts this action.
+
+![image](https://github.com/prajwal-billawa/Analog-Circuit-Design/assets/46377316/09c6fb69-db67-4498-b0c1-02533d5689d4)
